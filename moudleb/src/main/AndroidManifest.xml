@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.yuntai.mechrevo.moudleb">
+    <application>
+        <activity android:name=".B_MainActivity"/>
+    </application>
+</manifest>

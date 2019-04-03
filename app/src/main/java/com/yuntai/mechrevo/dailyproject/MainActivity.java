@@ -17,12 +17,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         findViewById(R.id.tv).setOnClickListener(this);
-        findViewById(R.id.tv).performClick();
+
 
     }
 
     @Override
+    protected void onResume() {
+        super.onResume();
+//        findViewById(R.id.tv).performClick();
+    }
+
+    @Override
     public void onClick(View v) {
-        startActivity(new Intent(this,B_Activity.class));
+        startActivity(new Intent(this, B_Activity.class));
+        overridePendingTransition(R.anim.left_overpadding, R.anim.right_overpadding);
     }
 }

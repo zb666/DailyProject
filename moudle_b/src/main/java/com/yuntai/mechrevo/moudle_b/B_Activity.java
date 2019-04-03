@@ -1,5 +1,6 @@
 package com.yuntai.mechrevo.moudle_b;
 
+import android.app.ActivityOptions;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -35,6 +36,7 @@ public class B_Activity extends AppCompatActivity implements View.OnClickListene
 //        ITestProvider pathProvider = (ITestProvider) ARouter.getInstance().build("/a/Ay").navigation();
 //        String pathProviderStr = pathProvider.getTest("这是Token 请给与我数据");
 //        LogUtils.showLog(pathProviderStr);
+//        ActivityOptions.
     }
 
     @Override

@@ -1,17 +1,16 @@
 package com.yuntai.mechrevo.dailyproject;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import com.alibaba.android.arouter.facade.Postcard;
-import com.alibaba.android.arouter.facade.callback.NavigationCallback;
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.yuntai.mechrevo.moudlea.A_MainActivity;
+import com.yuntai.mechrevo.moudle_a.A_Activity;
+import com.yuntai.mechrevo.moudle_b.B_Activity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -19,12 +18,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         findViewById(R.id.tv).setOnClickListener(this);
         findViewById(R.id.tv).performClick();
-        ARouter.getInstance().inject(this);
 
     }
 
     @Override
     public void onClick(View v) {
-        startActivity(new Intent(this,A_MainActivity.class));
+        startActivity(new Intent(this,B_Activity.class));
     }
 }

@@ -21,7 +21,8 @@ public class A_Activity extends AppCompatActivity implements View.OnClickListene
 
     @Override
     public void onClick(View v) {
-        ARouter.getInstance().build("/b/By").navigation();
+        ARouter.getInstance().build("/b/By")
+                .navigation();
     }
 
     @Override

@@ -12,7 +12,6 @@ import android.view.View;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.OvershootInterpolator;
 
-
 public class SplashView extends View {
 
 	//旋转圆的画笔

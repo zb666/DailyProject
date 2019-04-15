@@ -21,4 +21,8 @@
         <item>@color/yellow</item>
     </array>
 
+
+    <color name="colorStart">#F94B71</color>
+    <color name="colorEnd">#CF4CE4</color>
+
 </resources>

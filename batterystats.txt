@@ -1,0 +1,865 @@
+Battery History (0% used, 868 used of 512KB, 70 strings using 3900):
+                    0 (9) RESET:TIME: 2019-04-11-11-36-32
+                    0 (2) 100 status=discharging health=good plug=none temp=294 volt=4278 +running +wake_lock +wifi_radio +screen phone_signal_strength=excellent brightness=dim +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed proc=u0a3:"android.process.acore"
+                    0 (2) 100 proc=1000:"com.miui.powerkeeper:service"
+                    0 (2) 100 proc=u0a87:"com.xiaomi.vipaccount"
+                    0 (2) 100 proc=1000:"WebViewLoader-armeabi-v7a"
+                    0 (2) 100 proc=u0a36:"com.miui.analytics"
+                    0 (2) 100 proc=1000:"com.miui.touchassistant:float"
+                    0 (2) 100 proc=u0a18:"com.miui.home"
+                    0 (2) 100 proc=u0a87:"com.xiaomi.vipaccount:log"
+                    0 (2) 100 proc=u0a1:"com.lbe.security.miui"
+                    0 (2) 100 proc=u0a376:"com.renxing.jimo"
+                    0 (2) 100 proc=u0a1:"com.lbe.security.miui:ui"
+                    0 (2) 100 proc=u0a69:"com.xiaomi.market"
+                    0 (2) 100 proc=u0a354:"com.xingyongshe.rxzn:pushservice"
+                    0 (2) 100 proc=u0a53:"com.miui.hybrid:entrance"
+                    0 (2) 100 proc=1000:"com.miui.whetstone"
+                    0 (2) 100 proc=1000:"com.android.settings"
+                    0 (2) 100 proc=u0a98:"com.miui.core"
+                    0 (2) 100 proc=1000:"com.miui.wmsvc"
+                    0 (2) 100 proc=u0a58:"com.xiaomi.metoknlp"
+                    0 (2) 100 proc=u0a354:"com.xingyongshe.rxzn:core"
+                    0 (2) 100 proc=u0a376:"com.renxing.jimo:core"
+                    0 (2) 100 proc=u0a72:"com.svox.pico"
+                    0 (2) 100 proc=u0a376:"com.renxing.jimo:remote"
+                    0 (2) 100 proc=u0a366:"com.example.mechrevo.roothelptool:core"
+                    0 (2) 100 proc=u0a366:"com.example.mechrevo.roothelptool"
+                    0 (2) 100 proc=u0a80:"com.miui.systemAdSolution"
+                    0 (2) 100 proc=u0a43:"com.miui.cloudservice"
+                    0 (2) 100 proc=9810:"com.xiaomi.finddevice"
+                    0 (2) 100 proc=1000:"com.android.keychain"
+                    0 (2) 100 proc=u0a47:"com.miui.guardprovider"
+                    0 (2) 100 proc=1001:"com.qualcomm.qcrilmsgtunnel"
+                    0 (2) 100 proc=1000:"com.miui.contentcatcher"
+                    0 (2) 100 proc=u0a80:"com.miui.systemAdSolution:ui"
+                    0 (2) 100 proc=u0a367:"com.yuntai.mechrevo.dailyproject"
+                    0 (2) 100 proc=u0a354:"com.xingyongshe.rxzn"
+                    0 (2) 100 proc=u0a37:"com.xiaomi.providers.appindex"
+                    0 (2) 100 proc=1000:"com.miui.securitycenter"
+                    0 (2) 100 proc=1000:"com.quicinc.cne.CNEService"
+                    0 (2) 100 proc=u0a376:"com.renxing.jimo:pushservice"
+                    0 (2) 100 proc=u0a95:"com.sohu.inputmethod.sogou.xiaomi"
+                    0 (2) 100 proc=1000:"com.miui.securitycenter.remote"
+                    0 (2) 100 proc=u0a46:"com.android.deskclock"
+                    0 (2) 100 proc=u0a89:"com.xiaomi.xmsf"
+                    0 (2) 100 proc=u0a8:"com.android.defcontainer"
+                    0 (2) 100 proc=1000:"com.miui.daemon"
+                    0 (2) 100 proc=u0a10:"android.process.media"
+                    0 (2) 100 proc=1000:"com.android.systemui"
+                    0 (2) 100 proc=1000:"com.qualcomm.telephony"
+                    0 (2) 100 proc=1001:"com.android.phone"
+                    0 (2) 100 proc=9802:"com.android.updater"
+                    0 (2) 100 proc=u0a22:"com.android.musicfx"
+                    0 (2) 100 proc=1000:"com.miui.klo.bugreport"
+                    0 (2) 100 proc=1000:"com.android.settings:remote"
+                    0 (2) 100 proc=u0a25:"com.android.mms"
+                    0 (2) 100 fg=u0a376:"com.renxing.jimo"
+                    0 (2) 100 fg=u0a366:"com.example.mechrevo.roothelptool"
+                    0 (2) 100 fg=u0a354:"com.xingyongshe.rxzn"
+                    0 (2) 100 top=u0a376:"com.renxing.jimo"
+                    0 (2) 100 wake_lock_in=-1:"screen"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                    0 (2) 100 alarm=u0a300:"*alarm*:com.netease.cc.tcp.re-connect"
+                    0 (2) 100 alarm=u0a354:"*walarm*:com.qiyukf.nim.ACTION.ALARM.REPEATING"
+                    0 (2) 100 alarm=u0a366:"*walarm*:com.netease.nim.demo.ACTION.KEEP_ALIVE"
+                +20ms (2) 100 stats=0:"get-stats"
+                +38ms (2) 100 volt=4218
+                +46ms (3) 100 volt=4189 +wake_lock_in=1000:"*vibrator*"
+               +114ms (2) 100 -wake_lock_in=1000:"*vibrator*"
+               +836ms (2) 100 +wake_lock_in=1000:"StatusBar"
+               +989ms (3) 100 volt=4211 +wake_lock_in=u0a376:"*launch*"
+             +2s498ms (2) 100 +wake_lock_in=1000:"NetworkStats"
+             +2s561ms (2) 100 -wake_lock_in=1000:"NetworkStats"
+             +2s650ms (2) 100 -wake_lock_in=u0a376:"*launch*"
+             +2s844ms (2) 100 -wake_lock_in=1000:"StatusBar"
+             +3s356ms (2) 100 +wake_lock_in=1000:"*vibrator*"
+             +3s425ms (2) 100 -wake_lock_in=1000:"*vibrator*"
+             +3s471ms (2) 100 +wake_lock_in=u0a376:"*launch*"
+             +3s637ms (2) 100 -wake_lock_in=u0a376:"*launch*"
+             +6s809ms (2) 100 +wake_lock_in=u0a376:"*launch*"
+             +7s447ms (2) 100 +wake_lock_in=1013:"AudioMix"
+             +7s764ms (2) 100 -wake_lock_in=1013:"AudioMix"
+             +7s764ms (2) 100 +wake_lock_in=u0a376:"AudioMix"
+             +7s767ms (2) 100 +wake_lock_in=1013:"AudioIn"
+             +7s767ms (2) 100 -wake_lock_in=1013:"AudioIn"
+             +7s785ms (2) 100 +wake_lock_in=u0a376:"AudioIn"
+             +7s789ms (2) 100 -wake_lock_in=u0a376:"*launch*"
+             +9s776ms (2) 100 +wake_lock_in=1000:"*vibrator*"
+             +9s846ms (2) 100 -wake_lock_in=1000:"*vibrator*"
+            +10s915ms (2) 100 +wake_lock_in=u0a376:"*launch*"
+            +11s114ms (2) 100 -wake_lock_in=u0a376:"*launch*"
+            +11s267ms (2) 100 -wake_lock_in=u0a376:"AudioIn"
+            +11s272ms (2) 100 +wake_lock_in=1013:"AudioIn"
+            +11s274ms (2) 100 -wake_lock_in=1013:"AudioIn"
+            +11s443ms (2) 100 +wake_lock_in=1013:"AudioMix"
+            +11s479ms (2) 100 -wake_lock_in=u0a376:"AudioMix"
+            +13s995ms (3) 100 status=full +wake_lock_in=1000:"SyncLoopWakeLock"
+            +14s043ms (2) 100 -wake_lock_in=1000:"SyncLoopWakeLock"
+            +14s391ms (3) 100 volt=4188 -wake_lock_in=1013:"AudioMix"
+            +14s458ms (3) 100 volt=4164 +wake_lock_in=1000:"StatusBar"
+            +14s662ms (2) 100 stats=0:"battery-state"
+            +14s676ms (3) 100 plug=usb temp=293 volt=4182 +plugged
+
+Per-PID Stats:
+  PID 2091 wake time: +411ms
+  PID 3809 wake time: +4s11ms
+  PID 0 wake time: +6s87ms
+  PID 0 wake time: +3s715ms
+  PID 2091 wake time: +2s532ms
+
+Daily stats:
+  Current start time: 2019-04-11-06-36-03
+  Next min deadline: 2019-04-12-01-00-00
+  Next max deadline: 2019-04-12-03-00-00
+    Package changes:
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.renxing.jimo vers=40000820
+  Daily from 2019-04-10-08-12-59 to 2019-04-11-06-36-03:
+    Discharge step durations:
+      #0: +53m19s565ms to 97 (screen-off, power-save-off)
+      #1: +48m34s165ms to 98 (screen-off, power-save-off, device-idle-off)
+      #2: +3m41s649ms to 94 (power-save-off, device-idle-off)
+      #3: +3m41s648ms to 94 (power-save-off, device-idle-off)
+      #4: +6m39s984ms to 96 (screen-on, power-save-off, device-idle-off)
+      #5: +7m40s8ms to 97 (screen-on, power-save-off, device-idle-off)
+      #6: +5m0s23ms to 98 (screen-on, power-save-off, device-idle-off)
+        Discharge total time: 1d 6h 37m 23s 400ms  (from 7 steps)
+        Discharge screen off time: 3d 12h 54m 46s 500ms  (from 2 steps)
+        Discharge screen on time: 10h 44m 27s 100ms  (from 3 steps)
+    Package changes:
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.android.quicksearchbox vers=20190325
+      Update com.android.calendar vers=10030203
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.jetpack.flutter_project vers=1
+  Daily from 2019-04-09-03-09-36 to 2019-04-10-08-12-59:
+    Discharge step durations:
+      #0: +3h51m17s338ms to 97 (screen-off, power-save-off)
+      #1: +59m36s486ms to 98 (screen-off, power-save-off, device-idle-off)
+      #2: +51m14s922ms to 96 (power-save-off, device-idle-off)
+      #3: +15m37s553ms to 97 (power-save-off, device-idle-off)
+      #4: +76ms to 98 (screen-on, power-save-off, device-idle-off)
+      #5: +1h50m13s449ms to 96 (screen-off, power-save-off, device-idle-on)
+      #6: +3h51m55s698ms to 97 (screen-off, power-save-off)
+        Discharge total time: 6d 22h 38m 56s 0ms  (from 7 steps)
+        Discharge screen off time: 10d 23h 46m 14s 200ms  (from 4 steps)
+        Discharge screen off device idle time: 7d 15h 42m 24s 900ms  (from 1 steps)
+        Discharge screen on time: 7s 600ms  (from 1 steps)
+    Package changes:
+      Update com.example.administrator.usevlayout vers=1
+      Update com.renxing.jimo vers=0
+      Update com.renxing.xys vers=300000210
+      Update com.renxing.xys vers=300000210
+      Update com.renxing.xys vers=0
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=0
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+      Update com.renxing.jimo vers=40000820
+  Daily from 2019-04-08-04-11-37 to 2019-04-09-03-09-36:
+    Discharge step durations:
+      #0: +3h0m42s501ms to 96 (screen-off, power-save-off)
+        Discharge total time: 12d 13h 10m 50s 100ms  (from 1 steps)
+        Discharge screen off time: 12d 13h 10m 50s 100ms  (from 1 steps)
+    Package changes:
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+  Daily from 2019-04-07-07-08-12 to 2019-04-08-04-11-37:
+    Discharge step durations:
+      #0: +1h36m45s223ms to 98 (screen-off, power-save-off)
+      #1: +3h3m43s377ms to 92 (screen-off, power-save-off)
+      #2: +19m45s148ms to 93 (screen-off, power-save-off, device-idle-off)
+        Discharge total time: 6d 22h 47m 38s 200ms  (from 3 steps)
+        Discharge screen off time: 6d 22h 47m 38s 200ms  (from 3 steps)
+    Package changes:
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+      Update com.jetpack.flutter_project vers=1
+  Daily from 2019-04-06-17-59-57 to 2019-04-07-07-08-12:
+    Discharge step durations:
+      #0: +5m3s372ms to 96 (screen-off, power-save-off, device-idle-off)
+        Discharge total time: 8h 25m 37s 200ms  (from 1 steps)
+        Discharge screen off time: 8h 25m 37s 200ms  (from 1 steps)
+    Charge step durations:
+      #0: +20s3ms to 89 (screen-off, power-save-off, device-idle-off)
+      #1: +4m40s1ms to 88 (screen-off, power-save-off, device-idle-off)
+      #2: +4m59s996ms to 87 (screen-off, power-save-off, device-idle-off)
+        Charge total time: 5h 33m 20s 0ms  (from 3 steps)
+        Charge screen off time: 5h 33m 20s 0ms  (from 3 steps)
+    Package changes:
+      Update com.android.thememanager vers=552
+      Update com.duokan.reader vers=587190406
+      Update com.xiaomi.shop vers=20190404
+  Daily from 2019-04-05-08-46-20 to 2019-04-06-17-59-57:
+    Discharge step durations:
+      #0: +32s203ms to 84 (screen-off, power-save-off, device-idle-on)
+      #1: +32s203ms to 84 (screen-off, power-save-off, device-idle-on)
+      #2: +10m0s701ms to 86 (screen-off, power-save-off, device-idle-on)
+      #3: +1h30m51s910ms to 87 (screen-off, power-save-off, device-idle-on)
+      #4: +8h35m39s529ms to 88 (screen-off, power-save-off, device-idle-on)
+      #5: +3h55m18s683ms to 89 (screen-off, power-save-off, device-idle-on)
+      #6: +1h23m56s546ms to 90 (screen-off, power-save-off)
+      #7: +2h15m18s655ms to 91 (screen-off, power-save-off, device-idle-on)
+        Discharge total time: 9d 7h 22m 10s 300ms  (from 8 steps)
+        Discharge screen off time: 9d 7h 22m 10s 300ms  (from 8 steps)
+        Discharge screen off device idle time: 9d 19h 17m 35s 400ms  (from 7 steps)
+  Daily from 2019-04-04-08-42-57 to 2019-04-05-08-46-20:
+    Discharge step durations:
+      #0: +8h4m5s523ms to 93 (screen-off, power-save-off, device-idle-on)
+      #1: +58m43s632ms to 94 (screen-off, power-save-off, device-idle-on)
+      #2: +2h1m53s613ms to 95 (screen-off, power-save-off, device-idle-on)
+      #3: +19m30s382ms to 96 (screen-off, power-save-off)
+      #4: +1h18m20s754ms to 97 (screen-off, power-save-off, device-idle-off)
+      #5: +15m2s515ms to 98 (screen-off, power-save-off, device-idle-off)
+      #6: +56m6s90ms to 83 (screen-off, power-save-off, device-idle-on)
+        Discharge total time: 8d 6h 30m 7s 200ms  (from 7 steps)
+        Discharge screen off time: 8d 6h 30m 7s 200ms  (from 7 steps)
+        Discharge screen off device idle time: 12d 12h 20m 21s 400ms  (from 4 steps)
+    Charge step durations:
+      #0: +60s19ms to 89 (screen-on, power-save-off, device-idle-off)
+      #1: +20s14ms to 88 (screen-on, power-save-off, device-idle-off)
+      #2: +19s993ms to 87 (screen-on, power-save-off, device-idle-off)
+      #3: +8m40s13ms to 86 (power-save-off, device-idle-off)
+        Charge total time: 4h 18m 20s 900ms  (from 4 steps)
+        Charge screen on time: 55m 34s 200ms  (from 3 steps)
+    Package changes:
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject.test vers=0
+      Update com.duokan.reader vers=587190330
+      Update air.tv.douyu.android vers=10561002
+      Update com.renxing.jimo vers=40000810
+  Daily from 2019-04-03-07-04-21 to 2019-04-04-08-42-57:
+    Discharge step durations:
+      #0: +39s790ms to 85 (screen-off, power-save-off, device-idle-on)
+      #1: +3h46m13s341ms to 86 (screen-off, power-save-off)
+      #2: +1h7m27s30ms to 87 (power-save-off, device-idle-off)
+      #3: +39m9s639ms to 88 (screen-off, power-save-off, device-idle-off)
+      #4: +3h1m35s427ms to 81 (power-save-off)
+        Discharge total time: 7d 3h 41m 44s 500ms  (from 5 steps)
+        Discharge screen off time: 6d 3h 48m 12s 300ms  (from 3 steps)
+        Discharge screen off device idle time: 1h 6m 19s 0ms  (from 1 steps)
+    Charge step durations:
+      #0: +20s17ms to 89 (screen-off, power-save-off, device-idle-off)
+      #1: +5m19s982ms to 88 (screen-off, power-save-off, device-idle-off)
+      #2: +20s19ms to 87 (screen-off, power-save-off, device-idle-off)
+      #3: +4m40s0ms to 86 (screen-off, power-save-off, device-idle-off)
+      #4: +3m59s986ms to 85 (screen-off, power-save-off, device-idle-off)
+      #5: +4m20s15ms to 84 (power-save-off, device-idle-off)
+        Charge total time: 5h 16m 40s 300ms  (from 6 steps)
+        Charge screen off time: 4h 53m 20s 0ms  (from 5 steps)
+    Package changes:
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.renxing.jimo vers=40000810
+      Update com.renxing.jimo vers=40000810
+      Update com.renxing.jimo vers=40000810
+      Update com.renxing.jimo vers=40000810
+      Update com.renxing.jimo vers=40000810
+      Update com.renxing.jimo vers=40000810
+      Update com.renxing.jimo vers=40000810
+      Update com.renxing.jimo vers=40000810
+      Update com.renxing.jimo vers=40000810
+      Update com.renxing.jimo vers=0
+      Update com.renxing.jimoo vers=0
+      Update com.renxing.jimo vers=40000810
+      Update com.renxing.jimo vers=40000810
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.renxing.jimo vers=40000810
+      Update com.renxing.jimo vers=40000810
+      Update com.renxing.jimo vers=40000810
+      Update com.renxing.jimo vers=40000810
+      Update com.renxing.jimo vers=40000810
+      Update com.renxing.jimo vers=40000810
+      Update com.renxing.jimo vers=40000810
+      Update com.renxing.jimo vers=40000810
+  Daily from 2019-04-02-07-02-55 to 2019-04-03-07-04-21:
+    Discharge step durations:
+      #0: +53m15s555ms to 83 (screen-off, power-save-off)
+      #1: +53m15s554ms to 83 (screen-off, power-save-off)
+      #2: +21m8s55ms to 85 (power-save-off, device-idle-off)
+      #3: +1h1m54s45ms to 86 (power-save-off, device-idle-off)
+      #4: +14m50s255ms to 87 (power-save-off, device-idle-off)
+      #5: +46m48s300ms to 89 (screen-off, power-save-off, device-idle-off)
+      #6: +9m58s787ms to 90 (power-save-off, device-idle-off)
+      #7: +107ms to 91 (screen-off, power-save-off, device-idle-off)
+      #8: +2m37s437ms to 92 (screen-off, power-save-off, device-idle-off)
+      #9: +2m37s436ms to 92 (screen-off, power-save-off, device-idle-off)
+      #10: +2m37s436ms to 92 (screen-off, power-save-off, device-idle-off)
+      #11: +2m57s880ms to 95 (screen-off, power-save-off, device-idle-off)
+      #12: +38m34s514ms to 96 (power-save-off, device-idle-off)
+      #13: +7m0s6ms to 97 (screen-on, power-save-off, device-idle-off)
+      #14: +2h15m11s133ms to 92 (screen-off, power-save-off)
+        Discharge total time: 2d 2h 18m 30s 0ms  (from 15 steps)
+        Discharge screen off time: 2d 7h 26m 4s 800ms  (from 9 steps)
+        Discharge screen on time: 11h 40m 0s 600ms  (from 1 steps)
+    Package changes:
+      Update de.robv.android.xposed.installer vers=43
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update de.robv.android.xposed.installer vers=43
+      Update com.yuntai.mechrevo.xposed vers=1
+      Update com.yuntai.mechrevo.xposed vers=1
+  Daily from 2019-04-01-03-03-05 to 2019-04-02-07-02-55:
+    Discharge step durations:
+      #0: +21m13s347ms to 94 (screen-off, power-save-off, device-idle-off)
+      #1: +1h9m57s741ms to 95 (screen-off, power-save-off, device-idle-off)
+      #2: +14m45s930ms to 96 (power-save-off, device-idle-off)
+      #3: +1m38s627ms to 97 (screen-on, power-save-off, device-idle-off)
+      #4: +32ms to 98 (screen-on, power-save-off, device-idle-off)
+      #5: +2h19m0s862ms to 94 (screen-off, power-save-off)
+        Discharge total time: 2d 20h 30m 8s 900ms  (from 6 steps)
+        Discharge screen off time: 5d 7h 53m 18s 300ms  (from 3 steps)
+        Discharge screen on time: 1h 22m 12s 900ms  (from 2 steps)
+    Package changes:
+      Update com.renxing.jimoo vers=40000700
+      Update com.renxing.jimoo vers=40000700
+      Update com.renxing.jimoo vers=40000700
+      Update com.renxing.jimoo vers=40000700
+      Update com.renxing.jimoo vers=40000700
+      Update com.miui.player vers=10491
+      Update com.coroutine.bod.onnewintent vers=1
+      Update com.coroutine.bod.onnewintent vers=1
+      Update com.coroutine.bod.onnewintent vers=1
+      Update com.coroutine.bod.onnewintent vers=1
+      Update com.coroutine.bod.onnewintent vers=1
+      Update com.coroutine.bod.onnewintent vers=1
+      Update com.coroutine.bod.onnewintent vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=0
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.example.administrator.arouter_test vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.yuntai.mechrevo.dailyproject vers=1
+      Update com.xiaomi.shop vers=20190329
+      Update com.miui.hybrid vers=10400201
+
+Statistics since last charge:
+  System starts: 0, currently on battery: false
+  Time on battery: 14s 676ms (21.1%) realtime, 14s 676ms (21.1%) uptime
+  Time on battery screen off: 0ms (0.0%) realtime, 0ms (0.0%) uptime
+  Total run time: 1m 9s 396ms realtime, 1m 9s 397ms uptime
+  Start clock time: 2019-04-11-11-36-32
+  Screen on: 14s 676ms (100.0%) 0x, Interactive: 14s 676ms (100.0%)
+  Screen brightnesses:
+    dim 14s 676ms (100.0%)
+  Mobile total received: 0B, sent: 0B (packets received 0, sent 0)
+  Phone signal levels:
+    excellent 14s 676ms (100.0%) 0x
+  Signal scanning time: 0ms
+  Radio types:
+    none 14s 676ms (100.0%) 0x
+  Mobile radio active time: 0ms (0.0%) 0x
+  Wi-Fi total received: 1.78MB, sent: 116.86KB (packets received 1423, sent 1165)
+  Wifi on: 14s 676ms (100.0%), Wifi running: 14s 676ms (100.0%)
+  Wifi states: (no activity)
+  Wifi supplicant states:
+    completed 14s 676ms (100.0%) 0x
+  Wifi signal levels:
+    level(4) 14s 676ms (100.0%) 0x
+  WiFi Idle time: 0ms (--%)
+  WiFi Rx time:   0ms (--%)
+  WiFi Tx time:   0ms (--%)
+  WiFi Power drain: 0mAh
+  Bluetooth Idle time: 0ms (--%)
+  Bluetooth Rx time:   0ms (--%)
+  Bluetooth Tx time:   0ms (--%)
+  Bluetooth Power drain: 0mAh
+
+  Device battery use since last full charge
+    Amount discharged (lower bound): 0
+    Amount discharged (upper bound): 0
+    Amount discharged while screen on: 0
+    Amount discharged while screen off: 0
+
+  Estimated power use (mAh):
+    Capacity: 3010, Computed drain: 1.30, actual drain: 0
+    Screen: 0.603
+    Uid u0a376: 0.386 ( cpu=0.383 wifi=0.000382 sensor=0.00297 )
+    Uid 1000: 0.180 ( cpu=0.180 )
+    Uid 0: 0.0697 ( cpu=0.0697 wifi=0.0000102 )
+    Wifi: 0.0167 ( cpu=0.000355 wifi=0.0163 )
+    Uid 1036: 0.0142 ( cpu=0.0142 )
+    Cell standby: 0.0122 ( radio=0.0122 )
+    Uid 1013: 0.00640 ( cpu=0.00640 )
+    Uid 1001: 0.00355 ( cpu=0.00355 )
+    Uid u0a69: 0.00107 ( cpu=0.00107 )
+    Uid u0a354: 0.00107 ( cpu=0.00107 )
+    Uid 9999: 0.000355 ( cpu=0.000355 )
+    Uid u0a10: 0.000355 ( cpu=0.000355 )
+    Uid u0a18: 0.000355 ( cpu=0.000355 )
+    Uid u0a80: 0.000355 ( cpu=0.000355 )
+    Uid u0a89: 0.000355 ( cpu=0.000355 )
+    Uid u0a95: 0.000355 ( cpu=0.000355 )
+
+  0:
+    Wi-Fi network: 2.71KB received, 1.40KB sent (packets 32 received, 35 sent)
+    Total cpu time: u=130ms s=1s 830ms p=0mAh
+    Proc kworker/u:0H:
+      CPU: 0ms usr + 160ms krn ; 0ms fg
+    Proc kworker/3:2H:
+      CPU: 0ms usr + 90ms krn ; 0ms fg
+    Proc kworker/0:2H:
+      CPU: 0ms usr + 100ms krn ; 0ms fg
+    Proc RX_Thread:
+      CPU: 0ms usr + 140ms krn ; 0ms fg
+    Proc irq/344-synapti:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc wpa_supplicant:
+      CPU: 20ms usr + 80ms krn ; 0ms fg
+    Proc ksoftirqd/3:
+      CPU: 0ms usr + 210ms krn ; 0ms fg
+    Proc ksoftirqd/0:
+      CPU: 0ms usr + 320ms krn ; 0ms fg
+    Proc mmcqd/0:
+      CPU: 0ms usr + 80ms krn ; 0ms fg
+    Proc healthd:
+      CPU: 0ms usr + 80ms krn ; 0ms fg
+    Proc kworker/u:4:
+      CPU: 0ms usr + 130ms krn ; 0ms fg
+    Proc kworker/u:2:
+      CPU: 0ms usr + 150ms krn ; 0ms fg
+    Proc kworker/u:1:
+      CPU: 0ms usr + 150ms krn ; 0ms fg
+    Proc kworker/u:0:
+      CPU: 0ms usr + 300ms krn ; 0ms fg
+    Proc kworker/3:0:
+      CPU: 0ms usr + 1s 500ms krn ; 0ms fg
+    Proc kworker/0:3:
+      CPU: 0ms usr + 840ms krn ; 0ms fg
+    Proc kworker/0:2:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/0:0:
+      CPU: 0ms usr + 110ms krn ; 0ms fg
+    Proc kthreadd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc hvdcp:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc mpdecision:
+      CPU: 130ms usr + 410ms krn ; 0ms fg
+    Proc /init:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+    Proc vold:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc netd:
+      CPU: 0ms usr + 430ms krn ; 0ms fg
+    Proc logd:
+      CPU: 860ms usr + 840ms krn ; 0ms fg
+    Proc lmkd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc dpmd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc adbd:
+      CPU: 420ms usr + 6s 880ms krn ; 0ms fg
+    Proc MC_Thread:
+      CPU: 0ms usr + 200ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p25:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc ueventd:
+      CPU: 100ms usr + 110ms krn ; 0ms fg
+    Proc irq/642-inv_mpu:
+      CPU: 0ms usr + 870ms krn ; 0ms fg
+    Proc system:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc sdcard:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc displayfeature:
+      CPU: 20ms usr + 10ms krn ; 0ms fg
+    Proc cfinteractive:
+      CPU: 0ms usr + 60ms krn ; 0ms fg
+    Proc mdss_fb0:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc irq/33-cpubw_hw:
+      CPU: 0ms usr + 140ms krn ; 0ms fg
+    Proc flush-179:0:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc thermal-engine:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc TX_Thread:
+      CPU: 0ms usr + 60ms krn ; 0ms fg
+    Proc file-storage:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  1000:
+    User activity: 1 other, 2 button, 6 touch
+    Wake lock *alarm* realtime
+    Wake lock *vibrator* realtime
+    Wake lock NetworkStats realtime
+    Wake lock StatusBar realtime
+    Wake lock SyncLoopWakeLock realtime
+    Vibrator: 102ms realtime (6 times)
+    Foreground activities: 14s 676ms realtime (0 times)
+    Foreground for: 14s 676ms 
+    Total cpu time: u=2s 790ms s=2s 260ms p=0mAh
+    Proc charger_monitor:
+      CPU: 10ms usr + 30ms krn ; 0ms fg
+    Proc com.miui.whetstone:
+      CPU: 30ms usr + 20ms krn ; 0ms fg
+    Proc com.android.systemui:
+      CPU: 600ms usr + 270ms krn ; 0ms fg
+    Proc com.miui.powerkeeper:service:
+      CPU: 570ms usr + 1s 0ms krn ; 0ms fg
+    Proc com.miui.wmsvc:
+      CPU: 70ms usr + 40ms krn ; 0ms fg
+    Proc com.miui.securitycenter.remote:
+      CPU: 30ms usr + 30ms krn ; 0ms fg
+    Proc com.miui.klo.bugreport:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc com.android.keychain:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc surfaceflinger:
+      CPU: 1s 400ms usr + 1s 620ms krn ; 0ms fg
+    Proc mm-pp-daemon:
+      CPU: 30ms usr + 30ms krn ; 0ms fg
+    Proc system:
+      CPU: 3s 450ms usr + 1s 160ms krn ; 0ms fg
+    Proc com.miui.daemon:
+      CPU: 30ms usr + 10ms krn ; 0ms fg
+    Proc com.android.settings:remote:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc com.miui.touchassistant:float:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+  1001:
+    Foreground for: 14s 676ms 
+    Total cpu time: u=60ms s=40ms p=0mAh
+    Proc com.android.phone:
+      CPU: 30ms usr + 20ms krn ; 0ms fg
+    Proc qmuxd:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc rild:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  1002:
+    Foreground for: 14s 676ms 
+  1010:
+    Total cpu time: u=0ms s=10ms p=0mAh
+    (nothing executed)
+  1013:
+    Wake lock AudioMix realtime
+    Wake lock AudioIn realtime
+    Total cpu time: u=60ms s=120ms p=0mAh
+    Proc mediaserver:
+      CPU: 50ms usr + 0ms krn ; 0ms fg
+  1021:
+    Proc lowi-server:
+      CPU: 40ms usr + 20ms krn ; 0ms fg
+  1036:
+    Total cpu time: u=330ms s=70ms p=0mAh
+    (nothing executed)
+  9801:
+    Foreground for: 14s 676ms 
+  9802:
+    Active for: 14s 676ms 
+  9810:
+    Foreground for: 14s 676ms 
+  9999:
+    Total cpu time: u=0ms s=10ms p=0mAh
+    (nothing executed)
+  u0a1:
+    Foreground for: 14s 676ms 
+    Proc com.lbe.security.miui:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a2:
+    Foreground for: 14s 676ms 
+  u0a3:
+    Foreground for: 14s 676ms 
+  u0a5:
+    Foreground for: 14s 676ms 
+  u0a6:
+    Foreground for: 14s 676ms 
+  u0a7:
+    Foreground for: 14s 676ms 
+  u0a8:
+    Running for: 14s 676ms 
+    Proc com.android.defcontainer:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a9:
+    Foreground for: 14s 676ms 
+  u0a10:
+    Foreground for: 14s 676ms 
+    Total cpu time: u=10ms s=0ms p=0mAh
+    Proc android.process.media:
+      CPU: 50ms usr + 0ms krn ; 0ms fg
+    Apk com.android.providers.media:
+      Service com.android.providers.media.MtpService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+  u0a11:
+    Foreground for: 14s 676ms 
+  u0a12:
+    Foreground for: 14s 676ms 
+  u0a13:
+    Foreground for: 14s 676ms 
+  u0a16:
+    Foreground for: 14s 676ms 
+  u0a17:
+    Foreground for: 14s 676ms 
+  u0a18:
+    Foreground for: 14s 676ms 
+    Total cpu time: u=0ms s=10ms p=0mAh
+    Proc com.miui.home:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+  u0a19:
+    Foreground for: 14s 676ms 
+  u0a20:
+    Foreground for: 14s 676ms 
+  u0a22:
+    Running for: 14s 676ms 
+  u0a23:
+    Foreground for: 14s 676ms 
+  u0a25:
+    Active for: 14s 676ms 
+  u0a27:
+    Foreground for: 14s 676ms 
+  u0a28:
+    Foreground for: 14s 676ms 
+  u0a30:
+    Foreground for: 14s 676ms 
+  u0a35:
+    Foreground for: 14s 676ms 
+  u0a36:
+    Foreground for: 14s 676ms 
+  u0a37:
+    Running for: 14s 676ms 
+  u0a43:
+    Foreground for: 14s 676ms 
+  u0a46:
+    Running for: 14s 676ms 
+    Proc com.android.deskclock:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  u0a47:
+    Running for: 14s 676ms 
+  u0a48:
+    Foreground for: 14s 676ms 
+  u0a52:
+    Foreground for: 14s 676ms 
+  u0a53:
+    Foreground for: 14s 676ms 
+    Proc com.miui.hybrid:entrance:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a58:
+    Active for: 14s 676ms 
+    Proc com.xiaomi.metoknlp:
+      CPU: 10ms usr + 30ms krn ; 0ms fg
+  u0a59:
+    Foreground for: 14s 676ms 
+  u0a66:
+    Foreground for: 14s 676ms 
+  u0a69:
+    Foreground for: 14s 676ms 
+    Total cpu time: u=20ms s=10ms p=0mAh
+    Proc com.xiaomi.market:
+      CPU: 1s 760ms usr + 460ms krn ; 0ms fg
+  u0a72:
+    Running for: 14s 676ms 
+  u0a73:
+    Foreground for: 14s 676ms 
+  u0a74:
+    Foreground for: 14s 676ms 
+  u0a75:
+    Foreground for: 14s 676ms 
+  u0a78:
+    Foreground for: 14s 676ms 
+  u0a79:
+    Foreground for: 14s 676ms 
+  u0a80:
+    Active for: 14s 676ms 
+    Total cpu time: u=10ms s=0ms p=0mAh
+    Proc com.miui.systemAdSolution:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+  u0a85:
+    Foreground for: 14s 676ms 
+  u0a86:
+    Foreground for: 14s 676ms 
+  u0a87:
+    Running for: 14s 676ms 
+    Proc com.xiaomi.vipaccount:log:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a89:
+    Foreground for: 14s 676ms 
+    Total cpu time: u=10ms s=0ms p=0mAh
+    Apk com.xiaomi.xmsf:
+      Service com.xiaomi.xmsf.push.service.StatService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  u0a91:
+    Foreground for: 14s 676ms 
+  u0a92:
+    Foreground for: 14s 676ms 
+  u0a93:
+    Foreground for: 14s 676ms 
+  u0a95:
+    Active for: 14s 676ms 
+    Total cpu time: u=10ms s=0ms p=0mAh
+    Proc com.sohu.inputmethod.sogou.xiaomi:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+  u0a98:
+    Active for: 14s 676ms 
+  u0a101:
+    Foreground for: 14s 676ms 
+  u0a102:
+    Foreground activities: 14s 676ms realtime (0 times)
+    Foreground for: 14s 676ms 
+  u0a103:
+    Foreground for: 14s 676ms 
+  u0a107:
+    Foreground for: 14s 676ms 
+  u0a271:
+    Foreground for: 14s 676ms 
+  u0a300:
+    Foreground for: 14s 676ms 
+  u0a301:
+    Foreground for: 14s 676ms 
+  u0a345:
+    Foreground for: 14s 676ms 
+  u0a354:
+    Foreground for: 14s 676ms 
+    Total cpu time: u=20ms s=10ms p=0mAh
+    Proc com.xingyongshe.rxzn:
+      CPU: 70ms usr + 40ms krn ; 0ms fg
+    Proc com.xingyongshe.rxzn:pushservice:
+      CPU: 310ms usr + 110ms krn ; 0ms fg
+    Proc sh:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc com.xingyongshe.rxzn:core:
+      CPU: 120ms usr + 20ms krn ; 0ms fg
+  u0a355:
+    Foreground for: 14s 676ms 
+  u0a359:
+    Foreground for: 14s 676ms 
+  u0a360:
+    Foreground for: 14s 676ms 
+  u0a364:
+    Foreground for: 14s 676ms 
+  u0a366:
+    Foreground for: 14s 676ms 
+    Proc com.example.mechrevo.roothelptool:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Proc com.example.mechrevo.roothelptool:core:
+      CPU: 20ms usr + 10ms krn ; 0ms fg
+  u0a367:
+    Foreground activities: 14s 676ms realtime (0 times)
+    Running for: 14s 676ms 
+  u0a368:
+    Foreground activities: 14s 676ms realtime (0 times)
+    Foreground for: 14s 676ms 
+  u0a369:
+    Foreground activities: 14s 676ms realtime (0 times)
+    Foreground for: 14s 676ms 
+  u0a370:
+    Foreground for: 14s 676ms 
+  u0a373:
+    Foreground for: 14s 676ms 
+  u0a376:
+    Wi-Fi network: 1.77MB received, 115.46KB sent (packets 1391 received, 1130 sent)
+    Wake lock *alarm* realtime
+    Wake lock AudioMix realtime
+    Wake lock AudioIn realtime
+    Wake lock *launch* realtime
+    Sensor 2: 3s 489ms realtime (1 times)
+    Sensor 33: 10s 916ms realtime (0 times)
+    Foreground activities: 14s 676ms realtime (0 times)
+    Foreground for: 14s 676ms 
+    Total cpu time: u=9s 60ms s=1s 710ms p=0mAh
+    Proc com.renxing.jimo:pushservice:
+      CPU: 390ms usr + 270ms krn ; 0ms fg
+    Proc com.renxing.jimo:
+      CPU: 3s 30ms usr + 1s 480ms krn ; 21s 10ms fg
+    Proc com.renxing.jimo:core:
+      CPU: 260ms usr + 230ms krn ; 0ms fg
+    Proc com.renxing.jimo:remote:
+      CPU: 450ms usr + 260ms krn ; 0ms fg
+

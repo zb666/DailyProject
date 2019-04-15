@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html><head>
+
+<title>Battery Historian analysis for batterystats.txt</title>
+<p>Battery Historian analysis for batterystats.txt</p>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['timeline']}]}"></script>
+    
+<script type="text/javascript">
+google.setOnLoadCallback(drawChart);
+
+
+    var dataTable;
+    var chart;
+    var options;
+    var default_width = 3000
+function drawChart() {
+
+    container = document.getElementById('chart');
+    chart = new google.visualization.Timeline(container);
+
+    dataTable = new google.visualization.DataTable();
+    dataTable.addColumn({ type: 'string', id: 'Position' });
+    dataTable.addColumn({ type: 'string', id: 'Name' });
+    dataTable.addColumn({ type: 'date', id: 'Start' });
+    dataTable.addColumn({ type: 'date', id: 'End' });
+    dataTable.addRows([
+
+['battery_level', 'battery_level=100(0s-0s)', new Date(1554953792 * 1000), new Date(1554953793 * 1000)],
+['plugged', '+plugged(+14s-+14s)', new Date(1554953806 * 1000), new Date(1554953807 * 1000)],
+['screen', '+screen(0s-+14s)', new Date(1554953792 * 1000), new Date(1554953806 * 1000)],
+['top', '+top=u0a376:"com.renxing.jimo"(0s-+14s)', new Date(1554953792 * 1000), new Date(1554953806 * 1000)],
+['wake_lock *', '+wake_lock(0s-+14s)', new Date(1554953792 * 1000), new Date(1554953806 * 1000)],
+['running', '+running(0s-+14s)', new Date(1554953792 * 1000), new Date(1554953806 * 1000)],
+['wake_lock_in', '+wake_lock_in=u0a376:"*launch*"(0s-+2s)', new Date(1554953792 * 1000), new Date(1554953794 * 1000)],
+['wake_lock_in', '+wake_lock_in=1000:"StatusBar"(0s-+2s)', new Date(1554953792 * 1000), new Date(1554953794 * 1000)],
+['wake_lock_in', '+wake_lock_in=1000:"*vibrator*"(0s-0s)', new Date(1554953792 * 1000), new Date(1554953793 * 1000)],
+['wake_lock_in', '+wake_lock_in=-1:"screen"(0s-+14s)', new Date(1554953792 * 1000), new Date(1554953806 * 1000)],
+['wake_lock_in', '+wake_lock_in=1000:"NetworkStats"(+2s-+2s)', new Date(1554953794 * 1000), new Date(1554953795 * 1000)],
+['wake_lock_in', '+wake_lock_in=u0a376:"*launch*"(+3s-+3s)', new Date(1554953795 * 1000), new Date(1554953796 * 1000)],
+['wake_lock_in', '+wake_lock_in=1000:"*vibrator*"(+3s-+3s)', new Date(1554953795 * 1000), new Date(1554953796 * 1000)],
+['wake_lock_in', '+wake_lock_in=u0a376:"*launch*"(+6s-+7s)', new Date(1554953798 * 1000), new Date(1554953800 * 1000)],
+['wake_lock_in', '+wake_lock_in=1013:"AudioMix"(+7s-+7s)', new Date(1554953799 * 1000), new Date(1554953800 * 1000)],
+['wake_lock_in', '+wake_lock_in=u0a376:"AudioIn"(+7s-+11s)', new Date(1554953799 * 1000), new Date(1554953803 * 1000)],
+['wake_lock_in', '+wake_lock_in=u0a376:"AudioMix"(+7s-+11s)', new Date(1554953799 * 1000), new Date(1554953803 * 1000)],
+['wake_lock_in', '+wake_lock_in=1013:"AudioIn"(+7s-+7s)', new Date(1554953799 * 1000), new Date(1554953800 * 1000)],
+['wake_lock_in', '+wake_lock_in=1000:"*vibrator*"(+9s-+9s)', new Date(1554953801 * 1000), new Date(1554953802 * 1000)],
+['wake_lock_in', '+wake_lock_in=u0a376:"*launch*"(+10s-+11s)', new Date(1554953802 * 1000), new Date(1554953804 * 1000)],
+['wake_lock_in', '+wake_lock_in=1013:"AudioIn"(+11s-+11s)', new Date(1554953803 * 1000), new Date(1554953804 * 1000)],
+['wake_lock_in', '+wake_lock_in=1013:"AudioMix"(+11s-+14s)', new Date(1554953803 * 1000), new Date(1554953806 * 1000)],
+['wake_lock_in', '+wake_lock_in=1000:"SyncLoopWakeLock"(+13s-+14s)', new Date(1554953805 * 1000), new Date(1554953807 * 1000)],
+['wake_lock_in', '+wake_lock_in=1000:"StatusBar"(+14s-+14s)', new Date(1554953806 * 1000), new Date(1554953807 * 1000)],
+['wifi', '+wifi(0s-+14s)', new Date(1554953792 * 1000), new Date(1554953806 * 1000)],
+['wifi_radio', '+wifi_radio(0s-+14s)', new Date(1554953792 * 1000), new Date(1554953806 * 1000)],
+['wifi_running', '+wifi_running(0s-+14s)', new Date(1554953792 * 1000), new Date(1554953806 * 1000)],
+['wifi_suppl', 'wifi_suppl=completed(0s-0s)', new Date(1554953792 * 1000), new Date(1554953793 * 1000)],
+['wifi_signal_strength', 'wifi_signal_strength=4(0s-0s)', new Date(1554953792 * 1000), new Date(1554953793 * 1000)],
+['phone_signal_strength', 'phone_signal_strength=excellent(0s-0s)', new Date(1554953792 * 1000), new Date(1554953793 * 1000)],
+['fg', '+fg=u0a354:"com.xingyongshe.rxzn"(0s-+14s)', new Date(1554953792 * 1000), new Date(1554953806 * 1000)],
+['status', 'status=discharging(0s-0s)', new Date(1554953792 * 1000), new Date(1554953793 * 1000)],
+['status', 'status=full(+13s-+13s)', new Date(1554953805 * 1000), new Date(1554953806 * 1000)],
+['health', 'health=good(0s-0s)', new Date(1554953792 * 1000), new Date(1554953793 * 1000)],
+['plug', 'plug=none(0s-0s)', new Date(1554953792 * 1000), new Date(1554953793 * 1000)],
+['plug', 'plug=usb(+14s-+14s)', new Date(1554953806 * 1000), new Date(1554953807 * 1000)],
+['stats', 'stats=0:"get-stats"(0s-0s)', new Date(1554953792 * 1000), new Date(1554953793 * 1000)],
+['stats', 'stats=0:"battery-state"(+14s-+14s)', new Date(1554953806 * 1000), new Date(1554953807 * 1000)],
+['alarm', 'alarm=u0a300:"*alarm*:com.netease.cc.tcp.re-connect":(0s-0s)', new Date(1554953792 * 1000), new Date(1554953793 * 1000)],
+['alarm', 'alarm=u0a366:"*walarm*:com.netease.nim.demo.ACTION.KEEP_ALIVE"(0s-0s)', new Date(1554953792 * 1000), new Date(1554953793 * 1000)],
+['alarm', 'alarm=u0a354:"*walarm*:com.qiyukf.nim.ACTION.ALARM.REPEATING"(0s-0s)', new Date(1554953792 * 1000), new Date(1554953793 * 1000)],
+]);
+	options = {
+	timeline: { colorByRowLabel: true},
+	'width': 3000,
+	'height': 3000, 
+	colors: ['#4070cf', '#2e8b57', '#cbb69d', '#dc3912', 
+	
+	
+	'#cbb69d', '#990099', '#ff33cc', '#119fc8', 
+	
+	
+	
+	'#888888', '#109618', '#119fc8', '#9900aa', 
+	'#dc3912', '#dda0dd', '#9ac658', '#888888', 
+	'#888888', '#4070cf', '#4070cf', '#4070cf', '#4070cf', ]
+	};
+
+
+  //make sure allocate enough vertical space
+  options['height'] = dataTable.getNumberOfRows() * 40;
+  chart.draw(dataTable, options);
+
+  //get vertical coordinate of scale bar
+  var svg = document.getElementById('chart').getElementsByTagName('svg')[0];
+  var label = svg.children[2].children[0];
+  var y = label.getAttribute('y');
+  //plus height of scale bar
+  var chart_div_height = parseInt(y) + 50;
+  var chart_height = chart_div_height;
+
+  //set chart height to exact height
+  options['height'] = chart_height;
+  $('#chart').css('height', chart_div_height);
+  svg.setAttribute('height', chart_height);
+  var content = $('#chart').children()[0];
+  $(content).css('height', chart_height);
+  var inner = $(content).children()[0];
+  $(inner).css('height', chart_height);
+}
+
+
+function redrawChart() {
+    var scale = document.getElementById("scale").value;
+    scale = scale.replace('%', '') / 100
+    options['width'] = scale * default_width;
+    chart.draw(dataTable, options);
+}
+
+</script>
+<style>
+#redrawButton{
+width:100px;
+}
+</style>
+
+</head>
+<body>
+
+<div id="chart">
+<b>WARNING: Visualizer disabled. If you see this message, download the HTML then open it.</b>
+</div>
+<p><b>WARNING:</b>
+<br>*: wake_lock field only shows the first/last wakelock held 
+when the system is awake. For more detail, use wake_lock_in.<br>To enable full wakelock reporting (post-KitKat only) : 
+<br>adb shell dumpsys batterystats --enable full-wake-history</p>
+<pre>(Local time 11:36:32 - 11:36:46, 0m elapsed)</pre>
+<p>
+Zoom: <input id="scale" type="text" value="100%"></input><button type="button" id="redrawButton"onclick="redrawChart()">redraw</button></p>
+</p>
+
+<b>Event summary:
+</b><br><pre>
+  1 events, 14.676s total 14.676s avg 14.676s median: +wake_lock_in=-1:"screen" (first at 11:36:32)
+  1 events,  3.715s total  3.715s avg  3.715s median: +wake_lock_in=u0a376:"AudioMix" (first at 11:36:39)
+  1 events,  3.482s total  3.482s avg  3.482s median: +wake_lock_in=u0a376:"AudioIn" (first at 11:36:39)
+  2 events,  3.265s total  1.632s avg  2.948s median: +wake_lock_in=1013:"AudioMix" (first at 11:36:39)
+  4 events,  3.006s total  0.752s avg  0.980s median: +wake_lock_in=u0a376:"*launch*" (first at 11:36:32)
+  2 events,  2.226s total  1.113s avg  2.008s median: +wake_lock_in=1000:"StatusBar" (first at 11:36:32)
+  3 events,  0.207s total  0.069s avg  0.069s median: +wake_lock_in=1000:"*vibrator*" (first at 11:36:32)
+  1 events,  0.063s total  0.063s avg  0.063s median: +wake_lock_in=1000:"NetworkStats" (first at 11:36:34)
+  1 events,  0.048s total  0.048s avg  0.048s median: +wake_lock_in=1000:"SyncLoopWakeLock" (first at 11:36:45)
+  2 events,  0.002s total  0.001s avg  0.002s median: +wake_lock_in=1013:"AudioIn" (first at 11:36:39)
+total: 0.000 mAh, 18 events
+</pre>
+
+<br /><b>Proc/stat summary</b><ul>
+<li>Total User Time: 0ms</li>
+<li>Total System Time: 0ms</li>
+<li>Total IO Time: 0ms</li>
+<li>Total Irq Time: 0ms</li>
+<li>Total Soft Irq Time: 0ms</li>
+<li>Total Idle Time: 0ms</li>
+</ul>
+<pre>Process table:
+1000: "com.android.settings:remote"
+1001: "com.android.phone"
+9802: "com.android.updater"
+9810: "com.xiaomi.finddevice"
+u0a1: "com.lbe.security.miui:ui"
+u0a10: "android.process.media"
+u0a18: "com.miui.home"
+u0a22: "com.android.musicfx"
+u0a25: "com.android.mms"
+u0a3: "android.process.acore"
+u0a354: "com.xingyongshe.rxzn"
+u0a36: "com.miui.analytics"
+u0a366: "com.example.mechrevo.roothelptool"
+u0a367: "com.yuntai.mechrevo.dailyproject"
+u0a37: "com.xiaomi.providers.appindex"
+u0a376: "com.renxing.jimo:pushservice"
+u0a43: "com.miui.cloudservice"
+u0a46: "com.android.deskclock"
+u0a47: "com.miui.guardprovider"
+u0a53: "com.miui.hybrid:entrance"
+u0a58: "com.xiaomi.metoknlp"
+u0a69: "com.xiaomi.market"
+u0a72: "com.svox.pico"
+u0a8: "com.android.defcontainer"
+u0a80: "com.miui.systemAdSolution:ui"
+u0a87: "com.xiaomi.vipaccount:log"
+u0a89: "com.xiaomi.xmsf"
+u0a95: "com.sohu.inputmethod.sogou.xiaomi"
+u0a98: "com.miui.core"
+
+</pre>
+
+</body>
+</html>

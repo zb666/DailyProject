@@ -17,6 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".activity.BaseActivity"/>
+        <activity android:name=".activity.LoveLayoutActivity"/>
+        <activity android:name=".activity.PushWaveActivity"/>
+        <activity android:name=".activity.WaveActivity"/>
     </application>
 
 </manifest>
